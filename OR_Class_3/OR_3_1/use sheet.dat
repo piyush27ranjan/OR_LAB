@@ -1,0 +1,11 @@
+SheetConnection mysheet("D:\\17IM10012\\transport.xlsx");
+
+plants from SheetRead(mysheet, "B1");
+DC from SheetRead(mysheet, "B2");
+
+plantCapacity from SheetRead(mysheet, "E7:E9");
+demands from SheetRead(mysheet, "B11:C11");
+
+c from SheetRead(mysheet, "B7:C9");
+
+x to SheetWrite(mysheet, "H6:I8");
