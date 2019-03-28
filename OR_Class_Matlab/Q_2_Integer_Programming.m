@@ -1,0 +1,9 @@
+f = [-100, -150]
+A = [8000, 4000; 15, 30]
+b = [40000, 200]
+Aeq = []
+beq = []
+lb = [0, 0]
+ub = []
+intcon = [1, 2]
+[X, z] = intlinprog(f, intcon, A, b, Aeq, beq, lb, ub)
