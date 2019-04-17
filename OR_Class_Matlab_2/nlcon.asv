@@ -1,0 +1,3 @@
+function[c, ceq] = nlcon(x)
+c = -10*(2.71^(x(3)/50))-2);
+ceq = [];
